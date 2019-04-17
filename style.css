@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+html {
+  background-color:  #f0f0f5;
+}
+
+#quiz {
+  background-color: #009999;
+  position: relative;
+  height: auto;
+  width: 900px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 5px 7px 5px 5px;
+}
+
+#h1 {
+  position: relative;
+  background-color: white;
+  height: auto;
+  width: 700px;
+  border-radius: 40px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 50px;
+  color: #009999;
+}
+
+#tracker {
+  position: relative;
+  width: 700px;
+  display: flex;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.nos {
+  position: relative;
+  text-align: center;
+  background-color: #8c8c8c;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 1.5px solid white;
+  color: white;
+  font-weight: bolder;
+}
+
+hr {
+  border: 2px solid white;
+}
+
+#question {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+#options {
+  position: relative;
+  margin: 10px 0px;
+  width: 550px;
+}
+
+.button {
+  position: relative;
+  background-color: #e6f3ff;
+  width: 250px;
+  height: auto;
+  border-radius: 75px;
+  /* padding: 20px; */
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1.5px solid #339cff;
+  /* text-align: center; */
+}
+
+.button:hover {
+  background-color: #99ceff;
+  cursor: pointer;
+}
+
+.button span {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  font-weight: bold;
+  color: #009999;
+}

@@ -72,6 +72,8 @@ html {
 
 hr {
   border: 2px solid white;
+  position: relative;
+  clear: right;
 }
 
 #question {
@@ -97,11 +99,9 @@ hr {
   width: 250px;
   height: auto;
   border-radius: 75px;
-  /* padding: 20px; */
   margin-top: 20px;
   margin-right: 20px;
   border: 1.5px solid #339cff;
-  /* text-align: center; */
 }
 
 .button:hover {
@@ -115,4 +115,96 @@ hr {
   padding: 15px;
   font-weight: bold;
   color: #009999;
+}
+
+#submit {
+  position: relative;
+  float: right;
+  width: 250px;
+  /* height: auto; */
+  border-radius: 75px;
+  background-color: #595959;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+  font-size: 25px;
+  border: 1.5px solid grey;
+  text-align: center;
+  font-weight: 900;
+  font-family: serif;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #b3b3b3;
+}
+
+footer {
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+#progress {
+  position: relative;
+  float: left;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+#timer {
+  position: relative;
+  font-size: 25px;
+  font-weight: bold;
+  float: right;
+  color: white;
+}
+
+#quizset {
+  display: block;
+}
+
+#resultBox {
+  display: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#result {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#retake {
+  position: relative;
+  width: 250px;
+  /* height: auto; */
+  border-radius: 75px;
+  background-color: #595959;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 7px;
+  font-size: 25px;
+  border: 1.5px solid grey;
+  text-align: center;
+  font-weight: 900;
+  font-family: serif;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#retake:hover {
+  cursor: pointer;
+  background-color: #b3b3b3;
 }
